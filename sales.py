@@ -20,7 +20,7 @@ def get_data_by_productCode(code):
 
 
 # streamlit app
-st.title('Dashboard')
+st.title('Dashboard analisis penjualan produk')
 
 selectbox = st.sidebar.selectbox(
     'Pilih Produk apa yang ingin kamu lihat!',
