@@ -1,7 +1,5 @@
 import pandas as pd
 import streamlit as st
-import matplotlib.pyplot as plt
-from bokeh.plotting import figure
 
 df = pd.read_csv('sales.csv')
 df_new = df.iloc[:, :55]
